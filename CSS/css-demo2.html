@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Lato', sans-serif;
+        }
+        header, footer {
+            background-color: #FF74B1;
+            color: #FFD6EC;
+            padding: 15px;
+        }
+        aside{
+            width: 20%;
+        }
+        aside ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        aside li {
+            color: #FFA1CF;
+            background-color: #A7FFE4;
+            margin-bottom: 10px;
+            padding: 10px;
+            font-weight: bolder;
+        }
+
+        aside li:hover {
+            cursor: pointer;
+            color: #A7FFE4;
+            background-color: #FFA1CF;
+        }
+
+        article {
+            width: 80%;
+        }
+
+        .col {
+            float: left;
+            padding: 15px 15px 15px 0px;
+        }
+
+        .clearfix::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        h1{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Header</h2>
+    </header>
+
+    <main class="clearfix">
+        <aside class="col">
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+            </ul>
+        </aside>
+        <article class="col">
+            <h1>Komple Web Geliştirme Eğitimi</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi necessitatibus sed beatae provident minus inventore, modi dolor qui neque vel porro deserunt, officia velit, optio fugit non voluptatibus. Repellat, recusandae.</p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel quaerat dolorum quod. Quaerat architecto, nisi dolor fuga aspernatur exercitationem enim sequi aliquid? Doloribus aut, illo minima a quae excepturi quisquam.</p>
+        </article>
+    </main>
+
+
+    <footer>
+        <h2>Footer</h2>
+    </footer>
+    
+</body>
+</html>

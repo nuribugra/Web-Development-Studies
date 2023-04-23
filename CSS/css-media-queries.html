@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+        h1 {
+            display: none;
+        }
+
+        @media (max-width: 575px) {
+            #phone {
+                display: block;
+            }
+        }
+
+        @media (min-width: 576px) and (max-width: 767px) {
+            #landspace {
+                display: block;
+            }
+
+            body {
+                background-color: aqua;
+            }
+        }
+        @media (min-width: 768px) and (max-width: 991px) {
+            #tablet {
+                display: block;
+            }
+
+            body {
+                background-color: rgb(0, 255, 55);
+            }
+        }
+        @media (min-width: 992px) and (max-width: 1199px) {
+            #desktop {
+                display: block;
+            }
+
+            body {
+                background-color: red;
+            }
+        }
+        @media (min-width: 1200px) and (max-width: 1399px) {
+            #large {
+                display: block;
+            }
+
+            body {
+                background-color: rgb(255, 0, 217);
+            }
+        }
+        @media (min-width: 1400px) {
+            #xlarge {
+                display: block;
+            }
+
+            body {
+                background-color: rgb(255, 255, 0);
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1 id="phone">Phone</h1>
+    <h1 id="landspace">Landspace</h1>
+    <h1 id="tablet">Tablet</h1>
+    <h1 id="desktop">Desktop</h1>
+    <h1 id="large">Large Screen</h1>
+    <h1 id="xlarge">XLarge Screen</h1>
+
+</body>
+</html>

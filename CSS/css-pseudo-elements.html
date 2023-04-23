@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* psudo elements'ler kullanılırken çift ":" kullanılır. */
+        p::first-line{
+            color: red;
+        }
+        p::first-letter{
+            font-size: 36px;
+        }
+        p.about{
+            font-weight: bolder;
+        }
+        /* p .about olsaydı p etiketi altındaki about classına sahip etiketleri seçerdi. Ancak p.about yapınca p etiketleri arasında class'ı about olanını seçti. */
+
+        p::selection {
+            background-color: aqua;
+        }
+        /* Bu özellik mouse ile seçim yaptığımızda oluşan değişikliği belirtir. */
+
+        p::after {
+            content: "******";
+            color: purple;
+            font-size: 100px;
+        }
+        /* Bu özellik sayesinde p etiketlerinin sonuna istediğimi koyabilirim. before yaparsam başına */
+    </style>
+</head>
+<body>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus rerum aut rem reprehenderit in quod facere voluptate deleniti ducimus dolorum optio dolorem nobis sit reiciendis qui ad, molestiae ipsa assumenda?
+        Placeat delectus beatae rem nemo doloremque sit tenetur ex suscipit saepe, autem accusamus consectetur. Sit, optio obcaecati molestias perspiciatis accusamus magni nulla? Voluptas, nostrum. Cum quam ut quia ullam molestiae.
+    </p>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus rerum aut rem reprehenderit in quod facere voluptate deleniti ducimus dolorum optio dolorem nobis sit reiciendis qui ad, molestiae ipsa assumenda?
+        Placeat delectus beatae rem nemo doloremque sit tenetur ex suscipit saepe, autem accusamus consectetur. Sit, optio obcaecati molestias perspiciatis accusamus magni nulla? Voluptas, nostrum. Cum quam ut quia ullam molestiae.
+    </p>
+    <p class="about">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus rerum aut rem reprehenderit in quod facere voluptate deleniti ducimus dolorum optio dolorem nobis sit reiciendis qui ad, molestiae ipsa assumenda?
+        Placeat delectus beatae rem nemo doloremque sit tenetur ex suscipit saepe, autem accusamus consectetur. Sit, optio obcaecati molestias perspiciatis accusamus magni nulla? Voluptas, nostrum. Cum quam ut quia ullam molestiae.
+    </p>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus rerum aut rem reprehenderit in quod facere voluptate deleniti ducimus dolorum optio dolorem nobis sit reiciendis qui ad, molestiae ipsa assumenda?
+        Placeat delectus beatae rem nemo doloremque sit tenetur ex suscipit saepe, autem accusamus consectetur. Sit, optio obcaecati molestias perspiciatis accusamus magni nulla? Voluptas, nostrum. Cum quam ut quia ullam molestiae.
+    </p>
+    
+</body>
+</html>

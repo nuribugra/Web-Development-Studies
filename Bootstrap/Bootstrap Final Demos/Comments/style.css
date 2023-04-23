@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#comments .content {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#comments .content img {
+    width: 50px;
+    height: 50px;
+    margin-right: 0.6rem;
+}
+
+#comments .content .fa-star {
+    font-size: 13px;
+}
+#comments .checked {
+    color: orange;
+}
+
+#comments .btn-group .btn:hover {
+    color: rgb(0, 81, 255);
+    border: solid 1px rgb(220, 216, 216);
+    background-color: white;
+}
+
+#comments .form-control, .form-select {
+    background-color: #f9f9f9;
+}

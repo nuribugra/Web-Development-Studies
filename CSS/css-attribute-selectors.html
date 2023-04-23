@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Attribute selector */
+        /* a[target] {
+            background-color: blueviolet;
+        }
+
+        [class] {
+            background-color: yellowgreen;
+        } */
+        
+        
+        /* Attribute value selector */
+        
+        /* [class="active"] {
+            background-color: yellowgreen;
+        } */
+        /* Attribute '*' selector
+        yıldız ekleyince class içerisinde active kelimesi geçen her elemanı seçmiş oluruz. */
+        /* [class*="active"] {
+            background-color: yellowgreen;
+        } */
+
+        /* Attribute '~(tilda işareti)' selector 
+        burada active kelimesinin geçtiği her class yerine class'ı sadece active olanlar seçilir. */
+
+        /* Attribute '|' selector 
+        burada sadece active class'ına sahip olmalı yani birden fazla class varsa bunu kullanamazsın. */
+
+        /* Attribute '^' selector 
+        üsttekinden farklı olan tarafı bu selector birden fazla class'a sahip elemanları seçer. */
+
+        /* Attribute '$' selector 
+        active class'ı en sonda varsa seçilir.*/
+    </style>
+</head>
+<body>
+    <span class="active">Hello</span>
+
+    <nav>
+        <a href="" target="_blank">Home</a>
+        <a href="" class="active-products">Products</a>
+        <a href="" class="other">Contact</a>
+    </nav>
+    
+</body>
+</html>

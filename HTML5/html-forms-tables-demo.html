@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Kayıt olmak için formu doldurunuz.</h1>
+    <hr>
+    <h2>Hesap Bilgileriniz</h2>
+    <form>
+        <table cellpadding="10">
+            <tr>
+                <td><label for="nick">Kullanıcı Adı :</label></td>
+                <td><input name="nick" type="text" required maxlength="30" autofocus></td>
+            </tr>
+            <tr>
+                <td><label for="email">E-Posta Adresi :</label></td>
+                <td><input type="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Parola :</label></td>
+                <td><input type="password"></td>
+            </tr>
+        </table>
+    </form>
+    <h2>Kişisel Bilgileriniz</h2>
+    <form>
+        <table cellpadding="10">
+            <tr>
+                <td><label for="name">Ad :</label></td>
+                <td><input name="name" type="text" required maxlength="30" autofocus></td>
+            </tr>
+            <tr>
+                <td><label for="surname">Soyad :</label></td>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td><label for="cities">Şehir :</label></td>
+                <td><select name="cities" id="">
+                    <option value="01">Adana</option>
+                    <option value="06">Ankara</option>
+                    <option value="35">İzmir</option>
+                    <option value="34">İstanbul</option>
+                    <option value="41">Kocaeli</option>
+                    <option value="66">Yozgat</option>
+                    <option value="81">Düzce</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Cinsiyet :</label></td>
+                <td>
+                <input name="gender" type="radio" id="man">
+                   <label for="man">Erkek</label>
+                <input name="gender" type="radio" id="woman">
+                   <label for="woman">Kadın</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="hobies">Hobileriniz :</label></td>
+                <td>
+                    <input type="checkbox" name="skateboard" id="skateboard">
+                    <label for="skateboard">Kaykay</label>
+
+                    <input type="checkbox" name="box" id="box">
+                    <label for="box">Box</label>
+
+                    <input type="checkbox" name="football" id="football">
+                    <label for="football">Futbol</label>
+
+                    <input type="checkbox" name="swimming" id="swimming">
+                    <label for="swimming">Yüzme</label>
+
+                    <input type="checkbox" name="jogging" id="jogging">
+                    <label for="jogging">Yürüyüş</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="submit">Kaydet</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
