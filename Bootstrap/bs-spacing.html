@@ -18,7 +18,7 @@
     <!--
         margin (m) - padding (p) =>  {property}{sides}-{size}
 
-        {prperty} =>
+        {property} =>
         m: margin
         p: padding
 
@@ -40,9 +40,30 @@
         auto: mx-auto
     -->
 
-    <div class="bg-primary p-3">Lorem, ipsum.</div>
-    <div class="bg-primary p-4 mt-3 mb-4">Lorem, ipsum.</div>
-    <div class="bg-success p-4 mx-auto" style="width: 200px;">Lorem, ipsum.</div>
+    <a href="menu.html" class="btn btn-primary my-5">Back</a>
+
+    <h1>Margin & Padding</h1>
+    <ul class="list-group">
+        <li class="list-group-item active">General Structure: {property}{side}-{size}</li>
+    </ul>
+
+    <h4 class="mt-5 mb-3">{property}</h4>
+    <p class="text-warning">m: margin</p>
+    <p class="text-warning">p: padding</p>
+    
+    <h4 class="mt-5 mb-3">{side}</h4>
+    <p class="text-warning">t: top <span class="text-success">mt / pt</span></p>
+    <p class="text-warning">b: bottom <span class="text-success">mb / pb</span></p>
+    <p class="text-warning">s: start(left) <span class="text-success">ms / ps</span></p>
+    <p class="text-warning">e: end(right) <span class="text-success">me / pe</span></p>
+    <p class="text-warning">x: horizontal <span class="text-success">mx / px</span></p>
+    <p class="text-warning">y: vertical <span class="text-success">my / py</span></p>
+    
+    <br><br>
+
+    <div class="bg-primary p-3">Lorem, ipsum. (p-3)</div>
+    <div class="bg-info p-4 mt-3 mb-4">Lorem, ipsum. (p-4 mt-3 mb-4)</div>
+    <div class="bg-warning p-4 mx-auto" style="width: 300px;">Lorem, ipsum. (p-4 mx-auto)</div>
 
 
 
