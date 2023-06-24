@@ -14,8 +14,8 @@ if / else / else if
     && -> ve (& = "ve")
     || -> veya 
 
-    * && -> Belirlenen tüm şartlar sağlanmak zorundadır.
-    * || -> Belirlenen şartlardan sadece bir tanesinin sağlanması yeterlidir.
+    * && -> Belirlenen tüm şartlar sağlanmak zorundadır. (ve)
+    * || -> Belirlenen şartlardan sadece bir tanesinin sağlanması yeterlidir. (veya)
 
 */
 
