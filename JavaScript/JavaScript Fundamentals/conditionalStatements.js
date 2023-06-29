@@ -44,7 +44,7 @@ if (username == "kullaniciadi") {
         console.log("Şifreniz yanlıştır.");
     }
 }else if (username != "kulanıcıadi" && password != "1234") {
-    console.log("Kullanıcı adınız ve şifreniz yanlıştır.")
+    console.log("Kullanıcı adınız ve şifreniz yanlıştır.");
 }else {
     console.log("Kullanıcı adınız yanlış.");
 }
