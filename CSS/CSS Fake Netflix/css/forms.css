@@ -1,0 +1,86 @@
+#register-form {
+    width: 500px;
+    margin: auto;
+}
+
+#register-form label, 
+#register-form input:not([type="checkbox"]) {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+}
+
+#register-form input[type="checkbox"], 
+#register-form input[type="checkbox"] + label {
+    display: inline-block;
+    width: auto;
+}
+
+#register-form button[type="submit"] {
+    display: block;
+    margin-top: 30px;
+}
+
+#register-form input:not([type="checkbox"]) {
+    border: 2px solid #F5F5F1;
+    padding: 15px 25px;
+    font-size: 20px;
+    background-color: #1a1919;
+    transition: .2s;
+}
+#register-form input:not([type="checkbox"]):focus {
+    outline: none;
+    border: 2px solid #E50914;
+    padding: 15px 25px;
+    font-size: 20px;
+    background-color: #272626;
+    color: #F5F5F1;
+}
+
+#register-form label:not([for="agree-terms"]) {
+    color: #E50914;
+    margin-top: 40px;
+}
+
+label[for] {
+    color: #F5F5F1;
+}
+
+a.terms-link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a.terms-link:hover {
+    color: rgb(15, 15, 15);
+    text-decoration: underline;
+}
+
+#agree-terms {
+    margin: 50px 0 10px 0;
+}
+
+.button {
+    padding: 20px 30px;
+    font-size: 20px;
+}
+
+#register-form input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #221F1F;
+    border: 2px solid #E50914;
+    vertical-align:bottom ;
+    margin: 0;
+    margin-top: 40px;
+    margin-right: 10px;
+    transition: .2s;
+}
+ 
+#register-form input[type="checkbox"]:hover {
+    background-color: #E50914;
+    cursor: pointer;
+}
+#register-form input[type="checkbox"]:checked {
+    background-color: #E50914;
+}
