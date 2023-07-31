@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin: 50px auto;
+
+    display: grid;
+    /* grid-template-rows: 150px 250px;
+    grid-template-columns: 100px 200px 300px;
+    instead of this, do this: */
+
+    /* grid-template: 150px 250px / 200px 250px 300px; */
+    /* grid-template: 150px 250px / 200px auto 300px; */
+    grid-template: 150px 250px / 200px 3fr 1fr;
+    grid-gap: 10px;
+
+}
+
+.item {
+    padding: 15px;
+    /* border: 1px solid #fff; */
+    border-radius: 20px;
+    color: #fff;
+    background-color: rgb(43, 86, 226);
+}
+
+/* .item-4 {
+    order: -1;
+} */
+
+/* .item-1 {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+}
+
+.item-4 {
+    grid-row: 2 / 4;
+    grid-column: 3 / 4;
+} */
