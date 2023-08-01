@@ -26,3 +26,7 @@ console.log(age);
 
 let isOnline = true;
 console.log(!isOnline);
+
+// typeof metotdu ile bir değişkenin türü belirlenebilir.
+
+console.log(typeof age);

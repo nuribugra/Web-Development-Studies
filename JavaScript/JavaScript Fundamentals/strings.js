@@ -6,7 +6,7 @@ let message = "Merhaba ben " + fname + lname + ", " + age + " yaşındayım.";
 
 console.log(message);
 
-// *backtick (AltGr + ,)
+// * backtick (AltGr + ,)  ${variable}
 
 let message2 = `Merhaba ben ${fname}${lname}, ${age} yaşındayım.`;
 
