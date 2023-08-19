@@ -3,11 +3,11 @@ let currentDate = new Date();
 
 // Get Methods
 
-result = currentDate.getDate(); // Aydaki kaçıncı gün olduğunun bilgisini verir.
+result = currentDate.getDate(); // Provides the information of which day of the month it is.
 result = currentDate.getDay(); // 0:Sunday 6:Saturday
-result = currentDate.getFullYear(); // yıl
-result = currentDate.getHours(); // saat bilgisini verir
-result = currentDate.getTime(); // saat bilgisini milisaniye cinsinden verir.
+result = currentDate.getFullYear();
+result = currentDate.getHours();
+result = currentDate.getTime(); // Provides the time information in milliseconds.
 
 // Set Methods
 

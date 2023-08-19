@@ -2,12 +2,12 @@ let fname = "Nuri Buğra";
 let lname = " Demir";
 let age = 20;
 
-let message = "Merhaba ben " + fname + lname + ", " + age + " yaşındayım.";
+let message = "Hello, my name is " + fname + lname + ", I am " + age + " years old.";
 
 console.log(message);
 
 // * backtick (AltGr + ,)  ${variable}
 
-let message2 = `Merhaba ben ${fname}${lname}, ${age} yaşındayım.`;
+let message2 = `Hello, my name is ${fname}${lname}, I am ${age} years old.`;
 
 console.log(message2);

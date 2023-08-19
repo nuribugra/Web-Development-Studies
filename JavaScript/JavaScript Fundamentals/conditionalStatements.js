@@ -1,5 +1,3 @@
-// Şartlı İfadeler
-
 /*
 
 if / else / else if
@@ -9,44 +7,44 @@ if / else / else if
 /* 
     * Operators
 
-    == -> Eşit mi?
-    != -> Eşit değil mi?
-    && -> ve (& = "ve")
-    || -> veya 
+    == -> Is it equal?
+    != -> Is it not equal?
+    && -> and
+    || -> or 
 
-    * && -> Belirlenen tüm şartlar sağlanmak zorundadır. (ve)
-    * || -> Belirlenen şartlardan sadece bir tanesinin sağlanması yeterlidir. (veya)
+    * && -> All specified conditions must be provide. (and)
+    * || -> Only one of the specified conditions needs to be provided. (or)
 
 */
 
-// Yaşı 18'den büyük herkes ehiyet alabilir.
+// Anyone over the age of 18 can obtain a driver's license.
 
 let age = 12;
 
 if (age >= 18) {
-    console.log("Ehliyet alabilirsiniz.");
+    console.log("You can get a driver's license.");
 }else if (age > 0 && age < 18) {
-    console.log("Ehliyet alamazsınız.");
+    console.log("You cannot get a driver's license.");
 }else {
-    console.log("Lütfen geçerli bir değer giriniz.");
+    console.log("Please enter a valid value.");
 }
 
 
-// Sisteme giriş yapma durumu
+// Login status in the system.
 
-let username = "kullaniciadim";
+let username = "myusername";
 let password = "12345";
 
-if (username == "kullaniciadi") {
+if (username == "myusername") {
     if (password == "1234") {
-        console.log("Giriş başarılı.");
+        console.log("Login successful.");
     }else {
-        console.log("Şifreniz yanlıştır.");
+        console.log("Your password is incorrect.");
     }
-}else if (username != "kulanıcıadi" && password != "1234") {
-    console.log("Kullanıcı adınız ve şifreniz yanlıştır.");
+}else if (username != "myusername" && password != "12345") {
+    console.log("Your username and password are incorrect.");
 }else {
-    console.log("Kullanıcı adınız yanlış.");
+    console.log("Your username is incorrect.");
 }
 
 

@@ -17,7 +17,7 @@ console.log(address);
 //* Numbers
 
 let birthYear = 2000;
-let today = "2023"; // Implicit Type Conversion  String -> Number
+let today = "2023";
 
 let age = today - birthYear;
 console.log(age);
@@ -27,6 +27,6 @@ console.log(age);
 let isOnline = true;
 console.log(!isOnline);
 
-// typeof metodu ile bir değişkenin türü belirlenebilir.
+// The typeof method can be used to determine the type of a variable.
 
 console.log(typeof age);
