@@ -1,47 +1,47 @@
 /* 
-    1- Sipariş bilgilerini object içerisinde saklayınız.
-    2- Her siparişin ayrı ayrı kdv dahil toplam ödenen ücretini hesaplayınız. (kdv: %18)
-    3- Tüm siparişlerin kdv dahil toplam ödenen ücretini hesaplayınız.
+    1- Store the order information in an object.
+    2- Calculate the total amount paid including VAT for each order. (VAT: 18%)
+    3- Calculate the total amount paid including VAT for all orders.
 
-    sipariş id: 101
-    sipariş tarihi: 31.12.2022
-    ödeme şekli: kredi kartı
-    kargo adresi: Yahya kaptan mah. Kocaeli İzmit
-    satın alınan ürünler: 
-        ürün id: 5
-        ürün başlığı: IPhone 13 Pro
-        ürün url: http://abc.com/iphone-13-pro
-        ürün fiyatı: 22000
+    Order ID: 101
+    Order Date: 31.12.2022
+    Payment Method: credit card
+    Shipping Address: Yahya kaptan mah. Kocaeli İzmit
+    Purchased Products: 
+        Product ID: 5
+        Product Name: IPhone 13 Pro
+        Product URL: http://abc.com/iphone-13-pro
+        Product Price: 22000
 
-        ürün id: 6
-        ürün başlığı: IPhone 13 Pro Max
-        ürün url: http://abc.com/iphone-13-pro-max
-        ürün fiyatı: 25000
+        Product ID: 6
+        Product Name: IPhone 13 Pro Max
+        Product URL: http://abc.com/iphone-13-pro-max
+        Product Price: 25000
 
-    müşteri:
-        müşteri id: 12
+    Customer:
+        Customer ID: 12
         
-    satıcı:
-        firma id: 34
-        firma adı: Apple Türkiye
-******************************************************
-    sipariş id: 102
-    sipariş tarihi: 30.12.2022
-    ödeme şekli: kredi kartı
-    kargo adresi: Yahya kaptan mah. Kocaeli İzmit
-    satın alınan ürünler: 
+    Vendor:
+        Company ID: 34
+        Company Name: Apple Türkiye
+*******************************************************
+    Order ID: 102
+    Order Date: 30.12.2022
+    Payment Method: credit card
+    Shipping Address: Yahya kaptan mah. Kocaeli İzmit
+    Purchased Products: 
 
-        ürün id: 6
-        ürün başlığı: IPhone 13 Pro Max
-        ürün url: http://abc.com/iphone-13-pro-max
-        ürün fiyatı: 25000
+        Product ID: 6
+        Product Name: IPhone 13 Pro Max
+        Product URL: http://abc.com/iphone-13-pro-max
+        Product Price: 25000
 
-    müşteri:
-        müşteri id: 12
+    Customer:
+        Customer ID: 12
         
-    satıcı:
-        firma id: 34
-        firma adı: Apple Türkiye
+    Vendor:
+        Company ID: 34
+        Company Name: Apple Türkiye
 */
 
 let order1 = {

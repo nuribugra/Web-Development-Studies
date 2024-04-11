@@ -7,7 +7,7 @@ let myText = "Here, you can see a text that i utilized to explain strings";
 // console.log(myText[0]);
 
 let products = ["smart tv", ["iphone", "smart phone"], "printer", "fridge"];
-let prices = [20000, 50000, 6000, 10000]; //turkish lira
+let prices = [30000, [50000, 20000], 8000, 13000]; // turkish lira
 let brands = ["Samsung", "Apple", "Hp", "Philips"];
 
 // let promotion1 = `Did you see our brand new ${brands[0].toUpperCase()} ${products[0].toUpperCase()} ? It is only ${prices[0]} turkish liras.`;

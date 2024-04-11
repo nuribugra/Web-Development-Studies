@@ -21,7 +21,7 @@ currentDate.setDate(20);
 // console.log(result);
 // console.log(typeof result);
 
-const birthDate = new Date(2003, 4, 14, 10, 30);
+const birthDate = new Date(2003, 4, 14, 10, 30); // year, month, day, hour, minute
 
 result = currentDate.getFullYear() - birthDate.getFullYear();
 result = currentDate - birthDate;

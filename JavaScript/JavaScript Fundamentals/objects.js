@@ -7,7 +7,7 @@ let user1 = {
         "city": "Kocaeli",
         "district": "Derince"
     },
-    "hobbies": ["cinema", "reading"]
+    "hobbies": ["cinema", "reading", "music", "game"]
 }
 let user2 = {
     "fName": "Deniz Berk",
@@ -18,7 +18,7 @@ let user2 = {
         "city": "Kocaeli",
         "district": "Derince"
     },
-    "hobbies": ["game", "social media"]
+    "hobbies": ["game", "social media", "cartoon", "play"]
 }
 
 let users = [user1, user2];

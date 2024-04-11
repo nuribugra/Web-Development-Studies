@@ -25,5 +25,5 @@ result = brands1.concat(brands2); // Merges arrays.
 brands1.splice(0, 1); // Deleting element
 
 console.log(result);
-console.log(brands1);
+// console.log(brands1);
 // console.log(students);
