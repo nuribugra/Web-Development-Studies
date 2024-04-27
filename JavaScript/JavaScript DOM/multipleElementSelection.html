@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="card-header">
+        <h3 class="card-title main-title" id="title">To-do App</h3>
+    </div>
+
+    <ul id="task-list">
+        <li class="task">Task 1</li>
+        <li class="task">Task 2</li>
+        <li class="task">Task 3</li>
+    </ul>
+
+
+    <script>
+        let result, task_list;
+
+        result = document.getElementsByClassName("task")[0];
+
+        task_list = document.getElementsByClassName("task"); // getElementByTagName
+
+        // querySelectorAll("")
+
+        // for (let i = 0; i < task_list.length; i++) {
+        //     console.log(task_list[i]);
+        // }
+
+        for (let task of task_list) {
+            console.log(task);  
+        }
+
+        for (let task of task_list) {
+            task.style.color = "green";
+            task.style.fontSize = "15px";
+            // task.innerText = "Trial";
+        }
+
+        // console.log(result);
+    </script>
+</body>
+</html>
