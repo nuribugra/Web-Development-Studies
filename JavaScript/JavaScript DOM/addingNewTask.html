@@ -22,7 +22,7 @@
                         <form>
                             <div class="input-group">
                                 <input type="text" id="taskName" class="form-control">
-                                <button type="button" class="btn btn-primary" id="btnAddNewTask">
+                                <button type="submit" class="btn btn-primary" id="btnAddNewTask">
                                     <i class="fa-solid fa-plus"></i>
                                 </button>
                             </div>
@@ -30,7 +30,7 @@
                     </div>
                     <div class="card mt-3">
                         <div class="card-header">
-                            <button type="button" id="btnClear" class="btn btn-danger btn-sm float-end">
+                            <button id="btnClear" class="btn btn-danger btn-sm float-end">
                                 <i class="fa-solid fa-trash"></i>
                             </button>
                         </div>
@@ -72,11 +72,13 @@
         }
 
         document.querySelector("#btnAddNewTask").addEventListener("click", newTask);
-        document.querySelector("#btnAddNewTask").addEventListener("keypress", function() {
-            if (event.key == "Enter") {
-                document.getElementById("btnAddNewTask").click();
-            }kj
+        document.querySelector("#btnAddNewTask").addEventListener("keypress", function(event) {
+            if (event.key === "Enter") {
 
+                event.preventDefault();
+
+                document.getElementById("btnAddNewTask").click();
+            }
         })
 
         function newTask(event) {
